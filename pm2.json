@@ -1,0 +1,13 @@
+{
+    "apps": [{
+        "name": "alphatr-stat",
+        "script": "www/index.js",
+        "cwd": ".",
+        "max_memory_restart": "512M",
+        "autorestart": true,
+        "merge_logs": true,
+        "error_file": "logs/node-error.log",
+        "out_file": "logs/node-out.log",
+        "log_date_format": "YYYY-MM-DD HH:mm Z"
+    }]
+}

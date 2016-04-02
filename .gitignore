@@ -1,0 +1,4 @@
+node_modules/
+/logs/
+/config/challenge/
+/www/index.js
